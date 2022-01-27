@@ -1,5 +1,5 @@
 body {
-    border:  2px red;
+    border:  none;
 }
 .topwebsite {
     padding-bottom: 200px;
@@ -16,9 +16,7 @@ button {
  font-size: 16px;
 }
 
-p {font-size: 24px;
 
-}
 ul {
     display: block;
 }
@@ -64,6 +62,7 @@ ol{
     vertical-align: top;
     padding: 0 0 0 10px;
     box-sizing: border-box;
+    font-size: 24px;
 }
 .headerleft {
     display: flex;
@@ -71,6 +70,7 @@ ol{
     color: #f9faf8;
     align-items: center;
     margin: 100px;
+    padding: 5px 20px 20px 20px;
 }
  .bigcorgi {
      max-height: 300px;
@@ -82,12 +82,19 @@ ol{
 .corgi {
     max-width: 200px;
     max-height: 200px;
-    border: 10px solid blue;
+    border: 5px solid blue;
+    border-radius: 10px;
 }
 .middlesite{
-    display:grid;
-    grid-template-columns: repeat();
-    justify-content: center;
     padding: 40px;
     text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.four_images{
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
 }
