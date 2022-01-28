@@ -84,7 +84,8 @@ ol{
     max-height: 210px;
     border: 5px solid blue;
     border-radius: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: center;
 }
 .middlesite{
     text-align: center;
@@ -95,10 +96,24 @@ ol{
 }
 .four_images{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     flex-direction: row;
     padding-left: 300px;
     padding-right: 300px;
     font-size: 12px;
     font-weight: 400;
+}
+
+.text{
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 20px ;
+}
+
+.quotepage{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
 }
